@@ -1,0 +1,14 @@
+default and static methods in interface
+
+1.added from java8 (java se1.8-.2014)
+2.defalut method is method with concrete implementataion
+----------------------------------------------------------------------------------------
+functional interfaces
+
+1.an interface with only one abstract methos is called a functional interface . a functional interface can have any number of static or 
+defalut methods
+but one abstract method.
+2.you can use annotation @FunctionalInterface on top any interface to ensure it won't contain more than one abstrace method.
+3 functional interfaces are used to write lamba functions in java.
+4.since functional interfaces will contain only 1 abstract method with exactly one signature there is a possibilty using them as
+lambda functions.
